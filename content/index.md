@@ -1,7 +1,10 @@
 ---
-title: Welcome to Quartz 4
+title: Michael's Notes
 ---
+Hello! I'm Michael. This is my personal digital garden a collection of my notes, projects, and thoughts. 
 
-Quartz is a fast, batteries-included static-site generator that transforms Markdown content into fully functional websites. Thousands of students, developers, and teachers publish personal notes, wikis, and [digital gardens](https://jzhao.xyz/posts/networked-thought) to the web.
-
-See the [official documentation](https://quartz.jzhao.xyz/) for more details.
+> [!info] About Me 
+> I am a student/developer based in **[Your Location]**. 
+> Currently, I am focused on FRC Rebuilt, School, and learning rust. 
+> **Github:** [github.com/Penqguin](https://github.com/Penqguin) 
+> **Site**: [penqguin.com](https://penqguin.com) 
