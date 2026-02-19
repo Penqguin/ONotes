@@ -1,3 +1,6 @@
+---
+date: 2026-02-10
+---
 **Task:**  
 
 1. The primary benefit of writing Java code is that it is platform-independent. Using Google, research 2-3 other strengths of Java.
@@ -24,3 +27,4 @@ public class Goodbye{
 | int cost = 20.86;       | double cost = 20.86;  |
 | boolean error = “true”; | boolean error = true; |
 | char initial = “W”;     | char initial = 'W';   |
+# Reflection:

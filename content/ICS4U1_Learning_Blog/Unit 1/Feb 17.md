@@ -1,3 +1,6 @@
+---
+date: 2026-02-17
+---
 Task:  
 ![[Expression Worksheet.pdf]]
 
@@ -29,3 +32,4 @@ Task:
 	3. aB
 	4. This is fun.
 	5. 12
+# Reflection: 
