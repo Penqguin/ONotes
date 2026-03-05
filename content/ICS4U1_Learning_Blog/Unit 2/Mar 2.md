@@ -4,6 +4,7 @@ date: 2026-03-02
 # Boolean expressions in java
 
 ## Reflection
+
 Boolean expressions in Java are fundamental statements that evaluate to either true or false by utilizing comparison and logical operators. Understanding how to correctly apply these operators, manage the order of evaluation, and handle object-specific comparisons—such as with strings—is essential for controlling the logical flow of your programs.
 
 ### Key Concepts and Notes
