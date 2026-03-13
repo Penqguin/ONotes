@@ -1,5 +1,5 @@
 ---
 date: 2026-02-23
 ---
-# Reflection:
-Learned about formatting input
+# Formating input and output
+## Reflection:

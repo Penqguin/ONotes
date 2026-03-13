@@ -32,4 +32,6 @@ Task:
 	3. aB
 	4. This is fun.
 	5. 12
-# Reflection: 
+
+# Constants, Local, global variables, stack and heap memory and Pre-post increment and decrement operators
+## Reflection: 

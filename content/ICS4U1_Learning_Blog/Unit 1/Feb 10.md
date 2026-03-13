@@ -27,4 +27,5 @@ public class Goodbye{
 | int cost = 20.86;       | double cost = 20.86;  |
 | boolean error = “true”; | boolean error = true; |
 | char initial = “W”;     | char initial = 'W';   |
-# Reflection:
+# Understanding variables
+## Reflection:
