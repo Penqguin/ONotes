@@ -15,3 +15,8 @@ Selection statements are fundamental for decision-making in Java programming, al
 - **The `else` Statement:** This provides a fallback execution path. The code within an `else` block will run if, and only if, the preceding `if` condition evaluates to false.
 - **Handling Multiple Conditions (`else if`):** To test multiple scenarios, you can chain `else if` statements after an initial `if`. A conditional chain must always start with an `if` statement, and the `else` block (if you choose to include one) must be the very last part of the chain.
 - **Execution Order:** The order of your conditions is critical. Java evaluates an `if-else if-else` structure from top to bottom and will execute _only_ the first block that meets its condition, completely ignoring the rest of the chain once a match is found.
+
+## Examples
+```java
+if (x > 0) { if (y > 0) { ... } }
+```

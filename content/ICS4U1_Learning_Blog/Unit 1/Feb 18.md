@@ -1,6 +1,16 @@
 ---
 date: 2026-02-18
 ---
-# Escape Sequences and Output formatting using System.out.printf:
+# Escape Sequences and printf
 
-## Reflection:
+## Reflection
+Formatting output is essential for user-friendly interfaces, and `printf` offers precision that `println` lacks.
+
+### Key Concepts and Notes
+- `\n`, `\t`
+- `%d`, `%.2f` (rounding to 2 decimal places)
+
+## Examples
+```java
+System.out.printf("Total: $%.2f\n", total);
+```

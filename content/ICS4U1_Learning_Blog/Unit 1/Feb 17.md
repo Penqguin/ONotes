@@ -1,6 +1,24 @@
 ---
 date: 2026-02-17
 ---
+# Variables, Memory, and Operators
+
+## Reflection
+Understanding where data lives (stack vs heap) and how constants provide immutability is key to writing robust code.
+
+### Key Concepts and Notes
+- `final` keyword
+- Stack vs Heap
+- `++x` vs `x++` (Pre-post increment)
+
+## Examples
+```java
+final double PI = 3.14159;
+int x = 5;
+int y = x++;
+```
+
+### Existing Q&A
 Task:  
 ![[Expression Worksheet.pdf]]
 
@@ -32,6 +50,3 @@ Task:
 	3. aB
 	4. This is fun.
 	5. 12
-
-# Constants, Local, global variables, stack and heap memory and Pre-post increment and decrement operators
-## Reflection: 

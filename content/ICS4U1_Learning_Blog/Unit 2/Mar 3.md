@@ -1,9 +1,17 @@
 ---
 date: 2026-03-03
 ---
-# Null, empty and regular Strings:
+# Strings and Ternary Operator
 
-## Reflection:
+## Reflection
+Strings are objects with unique behaviors like immutability, while the ternary operator provides a concise way to handle simple if-else logic.
 
-# Ternary operator:
-## Reflection:
+### Key Concepts and Notes
+- `.length()`, `.substring()`
+- `null` vs `""`
+- `condition ? trueVal : falseVal`
+
+## Examples
+```java
+String status = (score >= 50) ? "Pass" : "Fail";
+```

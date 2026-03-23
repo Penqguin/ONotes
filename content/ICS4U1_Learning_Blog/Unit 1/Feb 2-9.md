@@ -1,7 +1,15 @@
 ---
 date: 2026-02-09
 ---
-## Task: Emerging technology assignment
+# Emerging Technology Assignment
 
-## Description/Reflection: 
-Created a presentation about the emerging technology of cloud-native edge computing
+## Reflection
+Researching cloud-native edge computing highlighted how distributed architecture is evolving to meet low-latency demands.
+
+### Key Concepts and Notes
+- Edge computing benefits
+- Cloud-native principles
+- Decentralized processing
+
+## Examples
+Presentation on cloud-native edge computing.

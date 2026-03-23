@@ -1,5 +1,14 @@
 ---
 date: 2026-03-24
 ---
-# In Class Assignment:
-link: https://github.com/Penqguin/ICS4U1/blob/main/assignment%20Feb%2024/Main.java
+# In Class Assignment
+
+## Reflection
+Building more complex I/O programs strengthens the ability to handle user interaction gracefully.
+
+### Key Concepts and Notes
+- Data processing
+- Formatted reports
+
+## Examples
+[Github Link](https://github.com/Penqguin/ICS4U1/blob/main/assignment%20Feb%2024/Main.java)

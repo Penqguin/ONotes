@@ -1,7 +1,17 @@
 ---
 date: 2026-03-09
 ---
-# Boolean expressions: relational and logical operators, DeMorgan's theorem, Short circuiting of Boolean expressions, if else statements, nested ifs and switch statements.
+# Boolean Logic and Selection
 
-## Reflection:
+## Reflection
+Mastering DeMorgan's laws and short-circuit evaluation leads to more efficient and readable conditional logic.
 
+### Key Concepts and Notes
+- `&&`, `||`, `!`
+- DeMorgan's Theorem
+- Short-circuiting
+
+## Examples
+```java
+if (obj != null && obj.isActive())
+```

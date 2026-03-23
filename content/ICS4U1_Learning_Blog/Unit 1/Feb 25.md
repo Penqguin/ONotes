@@ -2,4 +2,17 @@
 date: 2026-02-25
 ---
 # Errors in Java
-## Reflection:
+
+## Reflection
+Distinguishing between syntax, runtime, and logic errors is the first step toward effective debugging and problem-solving.
+
+### Key Concepts and Notes
+- Syntax errors (code rules)
+- Runtime errors (crashes)
+- Logic errors (wrong results)
+
+## Examples
+```java
+int x = 5 / 0; // Runtime
+if (x = 5) // Syntax
+```
