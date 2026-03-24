@@ -12,5 +12,20 @@ While loops are ideal for situations where the number of iterations is unknown a
 
 ## Examples
 ```java
-while(!finished) { ... }
+Scanner sc = new Scanner(System.in);
+
+double i;
+
+System.out.printf("%-30s","Enter a positive number:");
+
+i = sc.nextDouble();
+
+while (i < 0) {
+	System.out.printf("%-30s","Enter a positive number:");
+
+	i = sc.nextDouble();
+}
 ```
+[Github Link](https://github.com/Penqguin/ICS4U1/blob/main/IsPositive.java)
+[Github Link for another one](https://github.com/Penqguin/ICS4U1/blob/main/Sentinal.java)
+[One last one](https://github.com/Penqguin/ICS4U1/blob/main/IsEven.java)
