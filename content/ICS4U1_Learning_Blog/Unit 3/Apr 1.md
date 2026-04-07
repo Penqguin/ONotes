@@ -4,7 +4,7 @@ date: 2026-04-01
 # Methods in Java
 
 ## Reflection
-Methods are the building blocks of modular programming in Java. They embody the DRY (Don't Repeat Yourself) principle by allowing us to encapsulate logic into reusable blocks. Mastering how to define and invoke methods, as well as understanding the flow of data through parameters and return values, is essential for writing clean, maintainable code.
+Methods are the building blocks of modular programming in Java. They embody the DRY (Don't Repeat Yourself) principle by allowing us to store logic into reusable blocks. Mastering how to define and call methods, as well as understanding the flow of data through parameters and return values, is essential for writing clean, maintainable code.
 
 ### Key Concepts and Notes
 - **Method Signature**: Consists of the method name and the parameter list.
