@@ -1,5 +1,5 @@
 ---
-title: Michael's Notes
+title: Index
 ---
 Hello! I'm Michael. This is my personal digital garden a collection of my notes, projects, and thoughts. 
 
