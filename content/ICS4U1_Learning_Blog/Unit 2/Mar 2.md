@@ -1,5 +1,11 @@
 ---
 date: 2026-03-02
+tags:
+  - unit2
+  - boolean
+  - logical-operators
+  - comparison
+  - short-circuit
 ---
 # Boolean expressions in java
 
@@ -20,3 +26,8 @@ Boolean expressions in Java are fundamental statements that evaluate to either t
 if (a > b && c < d) { ... }
 if (str.equals("test")) { ... }
 ```
+
+---
+## Backlinks
+- [[Mar 3|Strings and Ternary Operator]]
+- [[Mar 9|Boolean Logic and Selection]]

@@ -1,5 +1,11 @@
 ---
 date: 2026-04-01
+tags:
+  - unit3
+  - methods
+  - parameters
+  - return
+  - method-overloading
 ---
 # Methods in Java
 
@@ -34,3 +40,8 @@ public static void main(String[] args) {
     greet("Computer Science Student");
 }
 ```
+
+---
+## Backlinks
+- [[Apr 7|Recursion in Java]]
+- [[Apr 9|Scope, Lifetime, Default values, and Access modifiers]]

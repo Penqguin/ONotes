@@ -1,5 +1,12 @@
 ---
 date: 2026-02-25
+tags:
+  - unit1
+  - errors
+  - debugging
+  - syntax
+  - runtime
+  - logic-errors
 ---
 # Errors in Java
 
@@ -16,3 +23,7 @@ Distinguishing between syntax, runtime, and logic errors is the first step towar
 int x = 5 / 0; // Runtime
 if (x = 5) // Syntax
 ```
+
+---
+## Backlinks
+- [[Unit 1 Overview]]

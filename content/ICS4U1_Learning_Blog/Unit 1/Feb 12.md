@@ -1,5 +1,9 @@
 ---
 date: 2026-02-12
+tags:
+  - unit1
+  - assignment
+  - problem-solving
 ---
 # In Class Assignment
 
@@ -12,3 +16,8 @@ Applying basic Java syntax to solve structured problems helps reinforce understa
 
 ## Examples
 [Github Link](https://github.com/Penqguin/ICS4U1/blob/main/assignment%20Feb%2012/Main.java)
+
+---
+## Backlinks
+- [[Feb 10|Understanding Variables]]
+- [[Feb 11|Implicit Casting]]

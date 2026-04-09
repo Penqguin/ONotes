@@ -1,5 +1,10 @@
 ---
 date: 2026-04-07
+tags:
+  - unit3
+  - recursion
+  - base-case
+  - stack-overflow
 ---
 # Recursion in Java
 
@@ -32,3 +37,8 @@ public static void main(String[] args) {
     System.out.println("The factorial of " + number + " is: " + result);
 }
 ```
+
+---
+## Backlinks
+- [[Apr 1|Methods in Java]]
+- [[Apr 8|Javadoc comments and Try catch blocks]]

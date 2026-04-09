@@ -1,5 +1,10 @@
 ---
 date: 2026-03-23
+tags:
+  - unit2
+  - loops
+  - while-loop
+  - input-validation
 ---
 # While Loops
 
@@ -29,3 +34,8 @@ while (i < 0) {
 [Github Link](https://github.com/Penqguin/ICS4U1/blob/main/IsPositive.java)
 [Github Link for another one](https://github.com/Penqguin/ICS4U1/blob/main/Sentinal.java)
 [One last one](https://github.com/Penqguin/ICS4U1/blob/main/IsEven.java)
+
+---
+## Backlinks
+- [[Mar 13|Control Structures (Loops)]]
+- [[Mar 24|More Loops Practice]]

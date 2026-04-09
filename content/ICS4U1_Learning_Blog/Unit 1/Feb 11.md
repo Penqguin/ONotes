@@ -1,5 +1,10 @@
 ---
 date: 2026-02-11
+tags:
+  - unit1
+  - type-casting
+  - widening-conversion
+  - data-types
 ---
 # Implicit Casting (Widening Conversion)
 
@@ -16,3 +21,8 @@ Widening conversion allows for safe, automatic type transitions where no data is
 int num = 10;
 double dNum = num;
 ```
+
+---
+## Backlinks
+- [[Feb 10|Understanding Variables]]
+- [[Feb 17|Variables, Memory, and Operators]]

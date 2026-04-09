@@ -1,5 +1,10 @@
 ---
 date: 2026-02-10
+tags:
+  - unit1
+  - variables
+  - data-types
+  - primitives
 ---
 # Understanding Variables
 
@@ -16,3 +21,8 @@ Java's platform independence via the JVM is its core strength, though its strict
 int myAge = 17;
 double price = 19.99;
 ```
+
+---
+## Backlinks
+- [[Feb 17|Variables, Memory, and Operators]]
+- [[Feb 11|Implicit Casting]]

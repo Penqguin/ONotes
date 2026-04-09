@@ -1,5 +1,10 @@
 ---
 date: 2026-02-18
+tags:
+  - unit1
+  - escape-sequences
+  - printf
+  - formatting
 ---
 # Escape Sequences and printf
 
@@ -14,3 +19,8 @@ Formatting output is essential for user-friendly interfaces, and `printf` offers
 ```java
 System.out.printf("Total: $%.2f\n", total);
 ```
+
+---
+## Backlinks
+- [[Feb 17|Variables, Memory, and Operators]]
+- [[Feb 19|Scanner Class]]

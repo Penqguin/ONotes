@@ -1,5 +1,10 @@
 ---
 date: 2026-02-19
+tags:
+  - unit1
+  - scanner
+  - user-input
+  - io
 ---
 # Scanner Class
 
@@ -15,3 +20,8 @@ The `Scanner` class is the primary way to handle user input in Java, requiring c
 Scanner input = new Scanner(System.in);
 String name = input.nextLine();
 ```
+
+---
+## Backlinks
+- [[Feb 18|Escape Sequences and printf]]
+- [[Feb 23|Formatting Input and Output]]

@@ -1,5 +1,11 @@
 ---
 date: 2026-02-23
+tags:
+  - unit1
+  - scanner
+  - printf
+  - formatting
+  - io
 ---
 # Formatting Input and Output
 
@@ -14,3 +20,8 @@ Combining `Scanner` and `printf` allows for interactive and well-organized progr
 ```java
 System.out.printf("%-10s %5d", "Item", quantity);
 ```
+
+---
+## Backlinks
+- [[Feb 18|Escape Sequences and printf]]
+- [[Feb 19|Scanner Class]]

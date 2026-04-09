@@ -1,5 +1,10 @@
 ---
 date: 2026-03-03
+tags:
+  - unit2
+  - strings
+  - ternary-operator
+  - string-methods
 ---
 # Strings and Ternary Operator
 
@@ -15,3 +20,8 @@ Strings are objects with unique behaviors like immutability, while the ternary o
 ```java
 String status = (score >= 50) ? "Pass" : "Fail";
 ```
+
+---
+## Backlinks
+- [[Mar 2|Boolean expressions in java]]
+- [[Mar 4|Selection Statements]]

@@ -1,5 +1,11 @@
 ---
 date: 2026-02-17
+tags:
+  - unit1
+  - variables
+  - memory
+  - operators
+  - stack-heap
 ---
 # Variables, Memory, and Operators
 
@@ -19,13 +25,13 @@ int y = x++;
 ```
 
 ### Existing Q&A
-Task:  
+Task:
 ![[Expression Worksheet.pdf]]
 
 1. a variable is a named container used to store data
 2. variable names
 3. one
-4. a variable thats immutable 
+4. a variable thats immutable
 5. expressions evaluate to a single variable
 6. int, short, long, byte
 7. float 32 and double 64
@@ -50,3 +56,8 @@ Task:
 	3. aB
 	4. This is fun.
 	5. 12
+
+---
+## Backlinks
+- [[Feb 10|Understanding Variables]]
+- [[Feb 11|Implicit Casting]]

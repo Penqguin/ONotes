@@ -1,5 +1,10 @@
 ---
 date: 2026-02-09
+tags:
+  - unit1
+  - emerging-technology
+  - cloud-computing
+  - edge-computing
 ---
 # Emerging Technology Assignment
 
@@ -13,3 +18,7 @@ Researching cloud-native edge computing highlighted how distributed architecture
 
 ## Examples
 Presentation on cloud-native edge computing.
+
+---
+## Backlinks
+- [[Unit 1 Overview]]

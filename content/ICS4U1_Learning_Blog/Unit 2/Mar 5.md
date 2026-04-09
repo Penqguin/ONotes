@@ -1,5 +1,10 @@
 ---
 date: 2026-03-05
+tags:
+  - unit2
+  - selection
+  - nested-if
+  - conditionals
 ---
 # Nested If Statements
 
@@ -20,3 +25,8 @@ Selection statements are fundamental for decision-making in Java programming, al
 ```java
 if (x > 0) { if (y > 0) { ... } }
 ```
+
+---
+## Backlinks
+- [[Mar 4|Selection Statements]]
+- [[Mar 9|Boolean Logic and Selection]]
