@@ -7,8 +7,6 @@ tags:
   - base-case
   - stack-overflow
 ---
-# Recursion in Java
-
 ## Reflection
 Recursion is a programming technique where a method calls itself to solve a problem. Instead of using a loop, we break a large problem down into smaller, identical versions of the same problem. It was a bit confusing at first to think about a function calling itself, but it makes sense when you realize it's just like a set of nesting dolls—you keep opening them until you find the smallest one.
 

@@ -7,8 +7,6 @@ tags:
   - loops
   - practice
 ---
-# Iterating through ArrayLists
-
 ## Reflection
 Today I practiced how to go through an ArrayList using loops. Since ArrayLists use the `.size()` method and the `.get()` method, it is a bit different from regular arrays. I also looked at the "for-each" loop, which is a much simpler way to look at every item in a list without needing to track the index number.
 

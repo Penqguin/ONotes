@@ -9,8 +9,6 @@ tags:
   - runtime
   - logic-errors
 ---
-# Errors in Java
-
 ## Reflection
 Distinguishing between syntax, runtime, and logic errors is the first step toward effective debugging and problem-solving.
 

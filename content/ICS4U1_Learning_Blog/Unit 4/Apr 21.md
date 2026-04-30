@@ -8,8 +8,6 @@ tags:
   - data-structures
   - iteration
 ---
-# 1D Arrays
-
 ## Reflection
 A 1D array is a data structure that stores a fixed-size sequence of elements of the same type in contiguous memory locations. Arrays are fundamental in Java for organizing and manipulating collections of data efficiently. Unlike variables that hold single values, arrays allow you to work with multiple related values under one name, accessed through numeric indices. Understanding arrays is essential for tasks like storing lists, processing data sets, and building more complex data structures.
 

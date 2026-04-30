@@ -7,8 +7,6 @@ tags:
   - nested-if
   - conditionals
 ---
-# Nested If Statements
-
 ## Reflection
 
 Selection statements are fundamental for decision-making in Java programming, allowing your code to branch into different execution paths based on specific criteria. By evaluating boolean conditions within parentheses, these statements determine which blocks of code to execute and which to skip, giving you precise control over the logical flow of your application.

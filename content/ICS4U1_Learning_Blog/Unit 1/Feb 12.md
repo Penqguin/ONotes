@@ -6,8 +6,6 @@ tags:
   - assignment
   - problem-solving
 ---
-# In Class Assignment
-
 ## Reflection
 Applying basic Java syntax to solve structured problems helps reinforce understanding of data types and operations.
 

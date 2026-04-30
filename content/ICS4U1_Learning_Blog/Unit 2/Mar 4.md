@@ -7,8 +7,6 @@ tags:
   - if-else
   - conditionals
 ---
-# Selection Statements
-
 ## Reflection
 Selection statements allow programs to be dynamic, responding to different inputs with specific logic paths.
 

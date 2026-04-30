@@ -8,8 +8,6 @@ tags:
   - short-circuit
   - logical-operators
 ---
-# Boolean Logic and Selection
-
 ## Reflection
 Mastering DeMorgan's laws and short-circuit evaluation leads to more efficient and readable conditional logic.
 

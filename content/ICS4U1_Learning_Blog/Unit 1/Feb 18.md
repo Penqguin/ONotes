@@ -7,8 +7,6 @@ tags:
   - printf
   - formatting
 ---
-# Escape Sequences and printf
-
 ## Reflection
 Formatting output is essential for user-friendly interfaces, and `printf` offers precision that `println` lacks.
 

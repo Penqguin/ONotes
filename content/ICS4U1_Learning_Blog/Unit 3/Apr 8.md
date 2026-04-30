@@ -8,8 +8,6 @@ tags:
   - try-catch
   - error-handling
 ---
-# Javadoc comments and Try catch blocks
-
 ## Reflection
 Javadoc and Try-Catch blocks help make code look professional and keep it from crashing. Javadoc is a great way to document what our methods do so others can use them easily. Try-Catch is like a safety net; it lets the program handle errors gracefully instead of just stopping with a big error message.
 

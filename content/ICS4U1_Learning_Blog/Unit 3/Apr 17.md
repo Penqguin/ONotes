@@ -9,8 +9,6 @@ tags:
   - javadoc
   - review
 ---
-# Methods, Method tracing, Javadoc comments, recursion, exception handling, String and Character class methods
-
 ## Reflection
 This session was a comprehensive review of multiple core Java concepts. We covered method structure and tracing, documentation with Javadoc, the concept and implementation of recursion, exception handling using try-catch blocks, and reviewed key methods from both the String and Character wrapper classes. Understanding these topics together reinforces how they interact in real programs.
 

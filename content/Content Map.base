@@ -1,9 +1,0 @@
-views:
-  - type: table
-    name: Table
-    order:
-      - file.name
-      - title
-      - tags
-    columnSize:
-      note.title: 349

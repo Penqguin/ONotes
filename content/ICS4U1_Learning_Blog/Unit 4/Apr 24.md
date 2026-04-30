@@ -7,8 +7,6 @@ tags:
   - collections
   - dynamic-arrays
 ---
-# ArrayList in Java
-
 ## Reflection
 Today we learned about ArrayLists. Unlike regular arrays that have a fixed size, ArrayLists can grow and shrink as needed. This makes them much more flexible when we don't know how much data we will have ahead of time. We also learned that ArrayLists only work with objects, so we have to use wrapper classes like `Integer` instead of `int`.
 

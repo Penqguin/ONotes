@@ -7,8 +7,6 @@ tags:
   - widening-conversion
   - data-types
 ---
-# Implicit Casting (Widening Conversion)
-
 ## Reflection
 Widening conversion allows for safe, automatic type transitions where no data is lost, such as moving from an integer to a double.
 

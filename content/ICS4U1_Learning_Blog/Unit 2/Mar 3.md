@@ -7,8 +7,6 @@ tags:
   - ternary-operator
   - string-methods
 ---
-# Strings and Ternary Operator
-
 ## Reflection
 Strings are objects with unique behaviors like immutability, while the ternary operator provides a concise way to handle simple if-else logic.
 

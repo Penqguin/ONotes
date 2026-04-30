@@ -6,8 +6,6 @@ tags:
   - assignment
   - io
 ---
-# In Class Assignment
-
 ## Reflection
 Building more complex I/O programs strengthens the ability to handle user interaction gracefully.
 

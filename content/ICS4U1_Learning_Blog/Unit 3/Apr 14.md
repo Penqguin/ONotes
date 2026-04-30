@@ -8,8 +8,6 @@ tags:
   - char
   - character-methods
 ---
-# Character class methods
-
 ## Reflection
 The Character class is a wrapper class for the primitive `char` type in Java. It provides useful utility methods for testing and transforming characters, such as checking if a character is a digit, letter, or whitespace, and converting between upper and lower case. Understanding Character methods is essential for input validation, text parsing, and working with individual characters within Strings.
 

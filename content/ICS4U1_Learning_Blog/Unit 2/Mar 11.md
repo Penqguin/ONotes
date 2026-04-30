@@ -6,8 +6,6 @@ tags:
   - assignment
   - selection
 ---
-# In Class Assignment
-
 ## Reflection
 Applying selection logic to real-world scenarios like ticket pricing requires careful boundary condition checking.
 

@@ -7,8 +7,6 @@ tags:
   - user-input
   - io
 ---
-# Scanner Class
-
 ## Reflection
 The `Scanner` class is the primary way to handle user input in Java, requiring careful management of the input buffer.
 

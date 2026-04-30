@@ -8,8 +8,6 @@ tags:
   - operators
   - stack-heap
 ---
-# Variables, Memory, and Operators
-
 ## Reflection
 Understanding where data lives (stack vs heap) and how constants provide immutability is key to writing robust code.
 

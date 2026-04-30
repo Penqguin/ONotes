@@ -1,6 +1,6 @@
 ---
-title: "Control Structures (Loops)"
-date: 2025-03-13
+title: Control Structures (Loops)
+date: 2026-03-13
 tags:
   - unit2
   - loops
@@ -8,8 +8,6 @@ tags:
   - while-loop
   - do-while
 ---
-# Control Structures (Loops)
-
 ## Reflection
 Iteration is the power of computing, allowing for repetitive tasks to be handled with minimal code.
 

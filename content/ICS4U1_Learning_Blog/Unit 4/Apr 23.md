@@ -8,8 +8,6 @@ tags:
   - array-methods
   - 2d-arrays
 ---
-# 2D Arrays - Jagged Arrays, Methods, Searching and Population
-
 ## Reflection
 Today we looked at jagged arrays, which are 2D arrays where the rows can have different lengths. This is useful for saving memory when we don't need a perfect grid. We also practiced how to populate arrays with specific data and how to replace elements. Using Java's built-in methods like `Arrays.deepToString()` helps us quickly see what's inside our 2D arrays without always needing nested loops for printing.
 

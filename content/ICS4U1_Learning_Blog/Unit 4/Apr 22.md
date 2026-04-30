@@ -8,8 +8,6 @@ tags:
   - nested-loops
   - data-structures
 ---
-# 2D Arrays
-
 ## Reflection
 A 2D array is essentially an "array of arrays." It allows us to store data in a grid-like structure with rows and columns, similar to a spreadsheet or a game board. In Java, 2D arrays are very useful when we need to represent matrices, coordinate systems, or any data that fits into a table format. By using two indices instead of one, we can precisely locate and manipulate data within this grid.
 

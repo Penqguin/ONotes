@@ -7,8 +7,6 @@ tags:
   - cloud-computing
   - edge-computing
 ---
-# Emerging Technology Assignment
-
 ## Reflection
 Researching cloud-native edge computing highlighted how distributed architecture is evolving to meet low-latency demands.
 

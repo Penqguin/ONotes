@@ -7,8 +7,6 @@ tags:
   - while-loop
   - input-validation
 ---
-# While Loops
-
 ## Reflection
 While loops are ideal for situations where the number of iterations is unknown and depends on a dynamic condition.
 

@@ -7,8 +7,6 @@ tags:
   - data-types
   - primitives
 ---
-# Understanding Variables
-
 ## Reflection
 Java's platform independence via the JVM is its core strength, though its strict typing and verbosity can be a hurdle for beginners.
 

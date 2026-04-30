@@ -8,8 +8,6 @@ tags:
   - formatting
   - io
 ---
-# Formatting Input and Output
-
 ## Reflection
 Combining `Scanner` and `printf` allows for interactive and well-organized programs.
 

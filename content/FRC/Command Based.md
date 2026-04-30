@@ -6,8 +6,6 @@ tags:
   - Java
 ---
 
-# 2026 FRC Command-Based Programming Standards
-
 The Command-Based framework remains the gold standard for FRC robot software, emphasizing a declarative approach to robot behavior.
 
 ## Core Concepts
@@ -38,8 +36,6 @@ Compositions allow building complex logic from simple commands:
 *   **Lambdas and Method References:** Minimize boilerplate by using `subsystem::method` references within command factories.
 
 ---
-
-# YAGSL (Yet Another Generic Swerve Library)
 
 YAGSL is a hardware-agnostic swerve library designed to simplify the complexity of swerve drive implementation through a configuration-first approach.
 

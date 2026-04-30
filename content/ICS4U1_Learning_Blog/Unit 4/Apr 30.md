@@ -7,8 +7,6 @@ tags:
   - file-io
   - io-streams
 ---
-# BufferedReader and BufferedWriter
-
 ## Reflection
 Today we learned about `BufferedReader` and `BufferedWriter`. These are more efficient ways to read and write text files compared to basic `FileReader` and `FileWriter`. They use a "buffer," which is like a temporary holding area in memory, to store data. This means the computer doesn't have to access the hard drive as often, making the program run much faster, especially when dealing with large files.
 

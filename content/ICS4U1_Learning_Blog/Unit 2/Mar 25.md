@@ -6,7 +6,6 @@ tags:
   - loops
   - practice
 ---
-# More Loops:
 [Tree](https://github.com/Penqguin/ICS4U1/blob/main/Tree.java)
 
 ---

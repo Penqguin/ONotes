@@ -7,8 +7,6 @@ tags:
   - strings
   - efficiency
 ---
-# StringBuilder
-
 ## Reflection
 Today we learned about the `StringBuilder` class. In Java, normal Strings are "immutable," which means they cannot be changed after they are created. If you try to change a String, Java has to make a brand new one, which can be slow. `StringBuilder` is different because it lets us change, add, or remove parts of the text without making a new object. This makes it much faster when we need to do a lot of work with text.
 

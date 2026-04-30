@@ -8,8 +8,6 @@ tags:
   - string-class
   - immutability
 ---
-# String class and methods
-
 ## Reflection
 The String class is one of the most commonly used classes in Java. Strings are immutable, meaning once created, they cannot be changed. This immutability makes Strings thread-safe and secure, but it also means operations like concatenation create new String objects rather than modifying existing ones. Understanding String methods is essential for text manipulation, user input processing, and data formatting in any Java application.
 

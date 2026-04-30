@@ -7,8 +7,6 @@ tags:
   - loops
   - big-o
 ---
-# Time complexity of loops
-
 ## Reflection
 
 Understanding time complexity and Big-O notation is essential for analyzing how algorithms scale with input size. When working with loops, it's important to recognize how nested loops and loop conditions affect the overall efficiency of your code.

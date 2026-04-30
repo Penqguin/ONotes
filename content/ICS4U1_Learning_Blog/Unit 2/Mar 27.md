@@ -6,7 +6,6 @@ tags:
   - assignment
   - loops
 ---
-# In class assignment:
 [Question](https://onlinegdb.com/nAngr2l2dE)
 
 ## Practice:

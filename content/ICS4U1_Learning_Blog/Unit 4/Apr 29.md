@@ -7,8 +7,6 @@ tags:
   - debugging
   - file-io
 ---
-# Unchecked Exceptions, Throwing Exceptions, and File I/O
-
 ## Reflection
 Today we learned about Unchecked Exceptions, which are also called Runtime Exceptions. Unlike other exceptions, the compiler doesn't force us to handle them because they usually happen because of mistakes in our code (bugs). We also learned how to manually "throw" an exception to stop our program when something isn't right. Additionally, we covered how to work with files using the `Files` class for utilities, `FileWriter` for writing data to files, and `FileReader` for reading data from files.
 
