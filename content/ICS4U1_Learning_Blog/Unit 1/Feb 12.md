@@ -1,4 +1,5 @@
 ---
+title: "In Class Assignment"
 date: 2026-02-12
 tags:
   - unit1

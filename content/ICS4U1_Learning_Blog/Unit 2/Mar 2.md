@@ -1,4 +1,5 @@
 ---
+title: "Boolean expressions in java"
 date: 2026-03-02
 tags:
   - unit2

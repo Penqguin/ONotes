@@ -1,4 +1,5 @@
 ---
+title: "Boolean Logic and Selection"
 date: 2026-03-09
 tags:
   - unit2

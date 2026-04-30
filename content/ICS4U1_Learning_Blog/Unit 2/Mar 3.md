@@ -1,4 +1,5 @@
 ---
+title: "Strings and Ternary Operator"
 date: 2026-03-03
 tags:
   - unit2

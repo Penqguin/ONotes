@@ -1,4 +1,5 @@
 ---
+title: "StringBuilder"
 date: 2026-04-28
 tags:
   - unit4

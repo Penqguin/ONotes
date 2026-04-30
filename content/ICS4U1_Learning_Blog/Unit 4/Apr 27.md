@@ -1,4 +1,5 @@
 ---
+title: "Iterating through ArrayLists"
 date: 2026-04-27
 tags:
   - unit4

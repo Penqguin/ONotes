@@ -1,4 +1,5 @@
 ---
+title: "1D Arrays"
 date: 2026-04-21
 tags:
   - unit4

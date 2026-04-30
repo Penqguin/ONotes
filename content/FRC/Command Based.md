@@ -1,4 +1,5 @@
 ---
+title: "2026 FRC Command-Based Programming Standards"
 date: 2026-04-29
 tags:
   - FRC

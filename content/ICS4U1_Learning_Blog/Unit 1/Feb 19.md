@@ -1,4 +1,5 @@
 ---
+title: "Scanner Class"
 date: 2026-02-19
 tags:
   - unit1

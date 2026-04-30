@@ -1,4 +1,5 @@
 ---
+title: "Escape Sequences and printf"
 date: 2026-02-18
 tags:
   - unit1

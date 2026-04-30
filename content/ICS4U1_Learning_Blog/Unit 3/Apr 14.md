@@ -1,4 +1,5 @@
 ---
+title: "Character class methods"
 date: 2026-04-14
 tags:
   - unit3

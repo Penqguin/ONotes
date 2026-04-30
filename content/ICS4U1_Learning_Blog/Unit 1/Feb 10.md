@@ -1,4 +1,5 @@
 ---
+title: "Understanding Variables"
 date: 2026-02-10
 tags:
   - unit1

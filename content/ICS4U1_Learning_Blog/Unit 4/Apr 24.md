@@ -1,4 +1,5 @@
 ---
+title: "ArrayList in Java"
 date: 2026-04-24
 tags:
   - unit4

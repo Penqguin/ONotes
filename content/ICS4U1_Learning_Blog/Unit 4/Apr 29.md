@@ -1,4 +1,5 @@
 ---
+title: "Unchecked Exceptions, Throwing Exceptions, and File I/O"
 date: 2026-04-29
 tags:
   - unit4

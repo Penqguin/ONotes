@@ -1,4 +1,5 @@
 ---
+title: "Methods, Method tracing, Javadoc comments, recursion, exception handling, String and Character class methods"
 date: 2026-04-17
 tags:
   - unit3

@@ -1,4 +1,5 @@
 ---
+title: "String class and methods"
 date: 2026-04-13
 tags:
   - unit3

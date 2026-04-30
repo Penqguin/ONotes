@@ -1,4 +1,5 @@
 ---
+title: "2D Arrays - Jagged Arrays, Methods, Searching and Population"
 date: 2026-04-23
 tags:
   - unit4

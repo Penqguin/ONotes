@@ -1,4 +1,5 @@
 ---
+title: "Errors in Java"
 date: 2026-02-25
 tags:
   - unit1

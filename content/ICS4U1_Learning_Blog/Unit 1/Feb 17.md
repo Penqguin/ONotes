@@ -1,4 +1,5 @@
 ---
+title: "Variables, Memory, and Operators"
 date: 2026-02-17
 tags:
   - unit1

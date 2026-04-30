@@ -1,4 +1,5 @@
 ---
+title: "BufferedReader and BufferedWriter"
 date: 2026-04-30
 tags:
   - unit4

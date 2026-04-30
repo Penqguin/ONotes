@@ -1,4 +1,5 @@
 ---
+title: "While Loops"
 date: 2026-03-23
 tags:
   - unit2

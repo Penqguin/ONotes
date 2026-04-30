@@ -1,4 +1,5 @@
 ---
+title: "Scope, Lifetime, Default values, and Access modifiers"
 date: 2026-04-09
 tags:
   - unit3
