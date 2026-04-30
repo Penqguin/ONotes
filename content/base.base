@@ -1,16 +1,10 @@
----
-title: base
----
-```base
 views:
   - type: table
     name: Table
     order:
       - file.name
       - title
-      - file.tags
+      - tags
     sort:
       - property: date
         direction: DESC
-
-```
