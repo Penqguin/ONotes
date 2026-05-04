@@ -5,7 +5,7 @@ tags:
   - FRC
   - Java
 ---
-
+##### Use other teams as REFERENCES to do this properly
 The Command-Based framework remains the gold standard for FRC robot software, emphasizing a declarative approach to robot behavior.
 
 ## Core Concepts
