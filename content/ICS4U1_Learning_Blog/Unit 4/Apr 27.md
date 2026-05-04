@@ -13,12 +13,13 @@ Today I practiced how to go through an ArrayList using loops. Since ArrayLists u
 ### Key Concepts and Notes
 - **For Loop**: You can use a standard `for` loop with `i < list.size()` to access each item using `list.get(i)`.
 - **Enhanced For Loop (For-Each)**: This is a shorter way to write a loop. It looks like `for (Type item : list)`. It is easier to read but doesn't let you see the index number.
+- **Iterator Class**: An `Iterator` is an object that can be used to loop through collections, like `ArrayList`. It is part of the `java.util` package. It is especially useful when you need to remove items from a collection while you are looping through it, which can cause errors (like `ConcurrentModificationException`) in a standard `for` or for-each loop.
 - **Printing**: You can print the whole ArrayList just by putting it in a `System.out.println()`, which is very helpful for quick debugging.
-- **Practice**: I practiced adding numbers to a list and then using a loop to find the total sum.
 
 ## Examples
 ```java
 import java.util.ArrayList;
+import java.util.Iterator;
 
 public class LoopExample {
     public static void main(String[] args) {
@@ -41,6 +42,21 @@ public class LoopExample {
             sum += num;
         }
         System.out.println("Total Sum: " + sum);
+
+        // 3. Using an Iterator
+        System.out.println("\nUsing an Iterator:");
+        Iterator<Integer> it = numbers.iterator();
+        while (it.hasNext()) {
+            Integer value = it.next();
+            System.out.println("Value: " + value);
+            
+            // Example of safe removal while iterating
+            if (value == 20) {
+                it.remove(); 
+                System.out.println("Removed 20");
+            }
+        }
+        System.out.println("List after Iterator removal: " + numbers);
     }
 }
 ```
