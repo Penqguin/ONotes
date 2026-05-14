@@ -57,6 +57,9 @@ function toggleFolder(evt: MouseEvent) {
   const childFolderContainer = folderContainer.nextElementSibling as MaybeHTMLElement
   if (!childFolderContainer) return
 
+  const folderIcon = folderContainer.querySelector(".folder-icon")
+  folderIcon?.classList.toggle("open")
+
   childFolderContainer.classList.toggle("open")
 
   // Collapse folder container
@@ -83,10 +86,12 @@ function createFileNode(currentSlug: FullSlug, node: FileTrieNode): HTMLLIElemen
   const template = document.getElementById("template-file") as HTMLTemplateElement
   const clone = template.content.cloneNode(true) as DocumentFragment
   const li = clone.querySelector("li") as HTMLLIElement
-  const a = li.querySelector("a") as HTMLAnchorElement
+  const a = li.querySelector(".file-link") as HTMLAnchorElement
+  const span = li.querySelector(".file-title") as HTMLSpanElement
+  
   a.href = resolveRelative(currentSlug, node.slug)
   a.dataset.for = node.slug
-  a.textContent = node.displayName
+  span.textContent = node.displayName
 
   if (currentSlug === node.slug) {
     a.classList.add("active")
@@ -142,6 +147,8 @@ function createFolderNode(
 
   if (!isCollapsed || folderIsPrefixOfCurrentSlug) {
     folderOuter.classList.add("open")
+    const folderIcon = folderContainer.querySelector(".folder-icon")
+    folderIcon?.classList.add("open")
   }
 
   for (const child of node.children) {
@@ -256,6 +263,14 @@ async function setupExplorer(currentSlug: FullSlug) {
       "folder-icon",
     ) as HTMLCollectionOf<HTMLElement>
     for (const icon of folderIcons) {
+      icon.addEventListener("click", toggleFolder)
+      window.addCleanup(() => icon.removeEventListener("click", toggleFolder))
+    }
+
+    const folderTypeIcons = explorer.getElementsByClassName(
+      "folder-type-icon",
+    ) as HTMLCollectionOf<HTMLElement>
+    for (const icon of folderTypeIcons) {
       icon.addEventListener("click", toggleFolder)
       window.addCleanup(() => icon.removeEventListener("click", toggleFolder))
     }

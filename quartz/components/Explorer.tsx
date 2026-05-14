@@ -8,6 +8,7 @@ import { i18n } from "../i18n"
 import { FileTrieNode } from "../util/fileTrie"
 import OverflowListFactory from "./OverflowList"
 import { concatenateResources } from "../util/resources"
+import { Menu, ChevronDown } from "lucide-preact"
 
 type OrderEntries = "sort" | "filter" | "map"
 
@@ -82,20 +83,7 @@ export default ((userOpts?: Partial<Options>) => {
           data-mobile={true}
           aria-controls={id}
         >
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            width="24"
-            height="24"
-            viewBox="0 0 24 24"
-            stroke-width="2"
-            stroke-linecap="round"
-            stroke-linejoin="round"
-            class="lucide-menu"
-          >
-            <line x1="4" x2="20" y1="12" y2="12" />
-            <line x1="4" x2="20" y1="6" y2="6" />
-            <line x1="4" x2="20" y1="18" y2="18" />
-          </svg>
+          <Menu />
         </button>
         <button
           type="button"
@@ -104,27 +92,33 @@ export default ((userOpts?: Partial<Options>) => {
           aria-expanded={true}
         >
           <h2>{opts.title ?? i18n(cfg.locale).components.explorer.title}</h2>
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            width="14"
-            height="14"
-            viewBox="5 8 14 8"
-            fill="none"
-            stroke="currentColor"
-            stroke-width="2"
-            stroke-linecap="round"
-            stroke-linejoin="round"
-            class="fold"
-          >
-            <polyline points="6 9 12 15 18 9"></polyline>
-          </svg>
+          <ChevronDown size={14} class="fold" />
         </button>
         <div id={id} class="explorer-content" aria-expanded={false} role="group">
           <OverflowList class="explorer-ul" />
         </div>
         <template id="template-file">
           <li>
-            <a href="#"></a>
+            <div class="file-container">
+              <a href="#" class="file-link">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="14"
+                  height="14"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  class="file-icon"
+                >
+                  <path d="M14.5 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7.5L14.5 2z"></path>
+                  <polyline points="14 2 14 8 20 8"></polyline>
+                </svg>
+                <span class="file-title"></span>
+              </a>
+            </div>
           </li>
         </template>
         <template id="template-folder">
@@ -143,6 +137,34 @@ export default ((userOpts?: Partial<Options>) => {
                 class="folder-icon"
               >
                 <polyline points="6 9 12 15 18 9"></polyline>
+              </svg>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="14"
+                height="14"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                class="folder-type-icon closed"
+              >
+                <path d="M4 20h16a2 2 0 0 0 2-2V8a2 2 0 0 0-2-2h-7.93a2 2 0 0 1-1.66-.9l-.82-1.2A2 2 0 0 0 7.93 3H4a2 2 0 0 0-2 2v13a2 2 0 0 0 2 2Z"></path>
+              </svg>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="14"
+                height="14"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                class="folder-type-icon open"
+              >
+                <path d="m6 14 1.45-2.9A2 2 0 0 1 9.24 10H20a2 2 0 0 1 1.94 2.5l-1.55 6a2 2 0 0 1-1.94 1.5H4a2 2 0 0 1-2-2V5c0-1.1.9-2 2-2h3.93a2 2 0 0 1 1.66.9l.82 1.2a2 2 0 0 0 1.66.9H18a2 2 0 0 1 2 2v2"></path>
               </svg>
               <div>
                 <button class="folder-button">
