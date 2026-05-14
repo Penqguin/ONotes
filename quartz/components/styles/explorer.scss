@@ -126,16 +126,41 @@ button.desktop-explorer {
       overscroll-behavior: contain;
     }
 
-    & li > a {
+    & li > .file-link {
+      display: flex;
+      align-items: center;
       color: var(--dark);
       opacity: 0.75;
       pointer-events: all;
+      transition: color 0.3s ease;
+
+      &:hover {
+        opacity: 1;
+        color: var(--tertiary);
+        text-decoration: none;
+      }
 
       &.active {
         opacity: 1;
         color: var(--tertiary);
       }
     }
+  }
+
+  .file-container {
+    display: flex;
+    align-items: center;
+    & > a {
+      color: var(--dark);
+      flex-grow: 1;
+    }
+  }
+
+  .folder-type-icon,
+  .file-icon {
+    margin-right: 6px;
+    color: var(--secondary);
+    flex-shrink: 0;
   }
 
   .folder-outer {
@@ -191,6 +216,10 @@ button.desktop-explorer {
     align-items: center;
     font-family: var(--headerFont);
 
+    &:hover span {
+      color: var(--tertiary);
+    }
+
     & span {
       font-size: 0.95rem;
       display: inline-block;
@@ -210,14 +239,36 @@ button.desktop-explorer {
   transition: transform 0.3s ease;
   backface-visibility: visible;
   flex-shrink: 0;
-}
+  transform: rotateZ(-90deg);
 
-li:has(> .folder-outer:not(.open)) > .folder-container > svg {
-  transform: rotate(-90deg);
+  &.open {
+    transform: rotateZ(0deg);
+  }
 }
 
 .folder-icon:hover {
   color: var(--tertiary);
+}
+
+.folder-type-icon,
+.file-icon {
+  margin-right: 6px;
+  color: var(--secondary);
+  flex-shrink: 0;
+  transition: color 0.3s ease;
+}
+
+li > .file-link:hover .file-icon,
+.folder-container:hover .folder-icon {
+  color: var(--tertiary);
+}
+
+li:has(> .folder-outer:not(.open)) > .folder-container > .folder-type-icon.open {
+  display: none;
+}
+
+li:has(> .folder-outer.open) > .folder-container > .folder-type-icon.closed {
+  display: none;
 }
 
 .explorer {
