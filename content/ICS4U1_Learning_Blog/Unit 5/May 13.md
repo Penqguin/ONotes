@@ -7,10 +7,13 @@ tags:
   - oop
   - java
 ---
+
 ## Reflection
+
 Today we learned about UML diagrams. UML stands for Unified Modeling Language. These are visual diagrams that help programmers plan and map out their code before writing it. It acts like a blueprint for a software project, showing the structure of classes and how they relate to each other.
 
 ### Key Concepts and Notes
+
 - **What is UML?**: It is a standard way to visualize a system's design.
 - **Class Diagrams**: These show classes, their attributes (variables), and their methods, along with how they connect.
 - **Relationships**: UML shows how classes interact, like inheritance (a child is a parent) or association (a class uses another).
@@ -18,6 +21,7 @@ Today we learned about UML diagrams. UML stands for Unified Modeling Language. T
 - **Visibility**: UML uses symbols (+ for public, - for private) to show how accessible class members are.
 
 ## Examples
+
 A simple class diagram structure in text might look like this:
 
 ```text
@@ -39,5 +43,7 @@ A simple class diagram structure in text might look like this:
 ```
 
 ---
+
 ## Backlinks
+
 - [[May 12|Abstraction]]
