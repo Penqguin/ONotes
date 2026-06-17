@@ -80,7 +80,32 @@ date: 2026-05-20
 
 ---
 
-## III. Resources & External Links
+## III. The Co-operative Education Program (Co-op)
+
+### Overview
+Waterloo is home to the world's largest co-op program, allowing students to alternate between four-month academic terms and four-month paid work terms. Most computer-related programs at Waterloo are either mandatory co-op or offer a strong co-op stream.
+
+### Key Features
+*   **Work Experience:** Students typically complete 5 to 6 work terms, gaining up to 2 years of professional experience before graduation.
+*   **Earnings:** Co-op students at Waterloo earn a competitive salary, which helps significantly with tuition and living expenses. Average earnings for computer science and engineering students are among the highest.
+*   **The Tatham Centre (TC):** A dedicated building on campus for co-op, hosting thousands of interviews every term with employers from around the globe.
+*   **PD Courses:** Students take Professional Development (PD) courses to improve their resume writing, interviewing, and workplace communication skills.
+
+### Benefits of Waterloo Co-op
+*   **Resume Building:** Graduate with a resume that already includes major tech companies and startups.
+*   **Networking:** Build a professional network and often secure full-time job offers before graduation.
+*   **Career Exploration:** Try out different roles (e.g., Software Developer, Data Scientist, Product Manager) in various industries.
+*   **Financial Independence:** Use earnings to pay for education; many students are able to graduate with little to no debt.
+
+### Top Employers
+Waterloo students are highly sought after by top-tier tech companies, including:
+*   **Big Tech:** Google, Microsoft, Amazon, Apple, Meta.
+*   **Finance & Fintech:** Bloomberg, Jane Street, Manulife, major banks (RBC, TD).
+*   **Startups & Local Gems:** Shopify, OpenText, and numerous startups in the Waterloo-Toronto tech corridor.
+
+---
+
+## IV. Resources & External Links
 
 ### Official Program Pages
 *   **[Computer Science (BCS)](https://uwaterloo.ca/future-students/programs/computer-science):** Overview of the CS program, including co-op and regular streams.
