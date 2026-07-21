@@ -8,7 +8,6 @@ tags:
   - architecture
 date: 2026-07-20
 ---
-
 # Window Manager
 
 A tiling window manager for macOS built in Rust. No System Integrity Protection (SIP) disabling required — only public Apple APIs (Accessibility & Core Graphics).
@@ -267,4 +266,4 @@ jobs:
 - [ ] **Phase 4 — CLI client** (send commands like `focus right`, `move workspace 2`)
 - [ ] **Phase 5 — Multi-monitor** (hot-plug handling, per-monitor workspaces)
 - [ ] **Phase 6 — Configuration** (TOML file for keybindings, gaps, layouts)
-- [ ] **Phase 7 — Code-signing + notarization** (distribute via Homebrew)
+- [ ] **Phase 7 — Code-signing + notarization** (distribute via Homebrew) 
