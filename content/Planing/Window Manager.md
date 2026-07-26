@@ -260,10 +260,10 @@ jobs:
 
 ## 8. Project Roadmap
 
-- [ ] **Phase 1 — Core layout engine** (pure Rust, testable on any OS)
-- [ ] **Phase 2 — macOS FFI bindings** (`AXUIElement`, `NSWorkspace`, `CGDisplay`)
-- [ ] **Phase 3 — Daemon with event loop** (UDS listener + `mpsc` dispatch)
-- [ ] **Phase 4 — CLI client** (send commands like `focus right`, `move workspace 2`)
-- [ ] **Phase 5 — Multi-monitor** (hot-plug handling, per-monitor workspaces)
-- [ ] **Phase 6 — Configuration** (TOML file for keybindings, gaps, layouts)
-- [ ] **Phase 7 — Code-signing + notarization** (distribute via Homebrew) 
+- [x] **Phase 1 — Core layout engine** (pure Rust, testable on any OS)
+- [x] **Phase 2 — macOS FFI bindings** (`AXUIElement`, `NSWorkspace`, `CGDisplay`)
+- [x] **Phase 3 — Daemon with event loop** (UDS listener + `mpsc` dispatch)
+- [x] **Phase 4 — CLI client** (send commands like `focus right`, `move workspace 2`)
+- [x] **Phase 5 — Multi-monitor** (hot-plug handling, per-monitor workspaces)
+- [x] **Phase 6 — Configuration** (TOML file for keybindings, gaps, layouts)
+- [x] **Phase 7 — Code-signing + notarization** (distribute via Homebrew) 
