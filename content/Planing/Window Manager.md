@@ -266,4 +266,4 @@ jobs:
 - [x] **Phase 4 — CLI client** (send commands like `focus right`, `move workspace 2`)
 - [x] **Phase 5 — Multi-monitor** (hot-plug handling, per-monitor workspaces)
 - [x] **Phase 6 — Configuration** (TOML file for keybindings, gaps, layouts)
-- [x] **Phase 7 — Code-signing + notarization** (distribute via Homebrew) 
+- [ ] **Phase 7 — Code-signing + notarization** (distribute via Homebrew) 
