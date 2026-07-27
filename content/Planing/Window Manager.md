@@ -10,7 +10,7 @@ date: 2026-07-20
 ---
 # Window Manager
 
-A tiling window manager for macOS built in Rust. No System Integrity Protection (SIP) disabling required — only public Apple APIs (Accessibility & Core Graphics).
+A tiling window manager for macOS built in Rust. No System Integrity Protection (SIP) disabling required only public Apple APIs (Accessibility & Core Graphics) other than \_AXUIElementGetWindow which has to be used for objects to ids.
 
 ---
 
@@ -18,7 +18,7 @@ A tiling window manager for macOS built in Rust. No System Integrity Protection 
 
 **Core Philosophy:**
 
-- **No SIP Disabling:** Uses only public Apple APIs (`Accessibility` and `Core Graphics`). No private entitlements or kernel extensions.
+- **No SIP Disabling:** Uses only public Apple APIs (`Accessibility` and `Core Graphics`). No private entitlements or kernel extensions except for \_AXUIElementGetWindow.
 - **Pure/Dirty Split:** The layout logic is a "pure" Rust mathematical model, completely decoupled from the "dirty" macOS FFI calls. You can unit-test the layout engine on any platform without macOS at all.
 - **IPC Model:** A daemon runs in the background listening to macOS events and a Unix Domain Socket (`/tmp/mywm.sock`). A separate CLI client sends JSON/Bincode commands via the socket to control the daemon at runtime.
 
